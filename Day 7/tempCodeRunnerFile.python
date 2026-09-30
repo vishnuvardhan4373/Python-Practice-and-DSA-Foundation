@@ -1,0 +1,21 @@
+numbers = [2, 5, 2, 3, 5, 2, 7, 5, 5]
+
+most_frequent = None
+highest_count = 0
+
+# Outer loop picks each number as a target
+for target in numbers:
+    tally = 0
+    
+    # Inner loop counts how many times the target appears
+    for item in numbers:
+        if item == target:
+            tally += 1
+            
+    # Check if the current number's frequency beats the record so far
+    if tally > highest_count:
+        highest_count = tally
+        most_frequent = target
+
+print(f"Most frequent = {most_frequent}")
+print(f"Frequency = {highest_count}")
