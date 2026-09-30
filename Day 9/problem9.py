@@ -1,0 +1,11 @@
+numbers = [-10, 5, 20, -3, 8]
+total = sum(numbers)
+length = len(numbers)
+Maximum = max(numbers)
+Minimum = min(numbers)
+Absolute_Value = abs(numbers[0])
+print(f"Length of Numbers is: {length}.")
+print(f"Sum of Numbers is: {total}.")
+print(f"Maximum number in Numbers is: {Maximum}.")
+print(f"Minimum number in Numbers is: {Minimum}.")
+print(f"Absolute Values of Numbers is: {Absolute_Value}.")
