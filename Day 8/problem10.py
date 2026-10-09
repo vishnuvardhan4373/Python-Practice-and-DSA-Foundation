@@ -1,0 +1,3 @@
+nums = [1, 2, 2, 3, 4, 3, 5, 1]
+unique = set(nums)
+print(unique)
